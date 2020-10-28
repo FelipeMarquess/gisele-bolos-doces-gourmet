@@ -57,7 +57,7 @@ footer#rodape {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 footer a.espaco {
@@ -68,8 +68,9 @@ span {
     margin-right: 5px;
 }
 
-div.imagerodape {
-    text-align: center;
+picture {
+    display: flex;
+    justify-content: center;
     margin-bottom: 3rem;
 }
 
