@@ -5,22 +5,30 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #EA848E;
     font-family: 'Lato', sans-serif;
+}
+
+div#container {
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header#cabecalho {
     text-align: center;
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
 }
 
 img {
     margin-top: 1.5rem;
 }
 
-a {
+a.principal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,4 +49,34 @@ a.colorr {
 
 a.colorg {
     background-color: #83E65D;
+}
+
+footer#rodape {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px ;
+}
+
+footer a.espaco {
+    margin: 0 2.5rem;
+}
+
+span {
+    margin-right: 5px;
+}
+
+/*RESPONSIVIDADE!*/
+@media (max-width: 425px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 320){
+    html {
+        font-size: 45%;
+    }
 }
