@@ -82,7 +82,7 @@ div#imagerodape {
     }
 }
 
-@media (max-width: 320){
+@media (max-width: 320px){
     html {
         font-size: 45%;
     }
