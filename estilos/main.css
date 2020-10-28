@@ -57,16 +57,22 @@ footer#rodape {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    margin-bottom: 40px ;
+    margin-bottom: 2.5rem;
 }
 
 footer a.espaco {
     margin: 0 2.5rem;
 }
 
-span {
+span {  
     margin-right: 5px;
 }
+
+div.imagerodape {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
 
 /*RESPONSIVIDADE!*/
 @media (max-width: 425px){
