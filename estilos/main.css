@@ -74,6 +74,12 @@ div#imagerodape {
     margin-bottom: 3rem;
 }
 
+picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
 
 /*RESPONSIVIDADE!*/
 @media (max-width: 425px){
