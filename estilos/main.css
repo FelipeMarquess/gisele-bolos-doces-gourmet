@@ -68,9 +68,8 @@ span {
     margin-right: 5px;
 }
 
-picture {
-    display: flex;
-    justify-content: center;
+div#imagerodape {
+    text-align: center;
     margin-bottom: 3rem;
 }
 
